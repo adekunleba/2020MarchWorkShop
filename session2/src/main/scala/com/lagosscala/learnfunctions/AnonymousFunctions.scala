@@ -20,6 +20,9 @@ object AnonymousFunctions {
   //You can chain multiple anonymous function to form higher order functions.
   lazy val chainedPartialFunction: Int = Array(2, 3, 44, 5, 6, 7, 7, 2, 4,
     6).map(_ * 2).filterNot(filterEquals10).count(x => x < 15)
+
+  //List(1, 2, 4, 5, 6).reduceRight(_ + _)
+
 }
 
 

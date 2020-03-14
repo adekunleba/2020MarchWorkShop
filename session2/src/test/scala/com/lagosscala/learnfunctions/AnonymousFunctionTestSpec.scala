@@ -21,6 +21,4 @@ class AnonymousFunctionTestSpec extends AnyWordSpec {
       assert(AnonymousFunctions.addResult == 7)
     }
   }
-
-
 }
